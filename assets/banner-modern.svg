@@ -1,52 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Banner">
   <defs>
     <linearGradient id="g1" x1="0" x2="1">
       <stop offset="0" stop-color="#0ea5a4"/>
       <stop offset="1" stop-color="#4f46e5"/>
     </linearGradient>
-    <style>
-      .bg{fill:url(#g1)}
-      .name{font:700 48px/1.1 'Segoe UI', Roboto, sans-serif; fill:#fff}
-      .title{font:400 20px/1.2 'Segoe UI', Roboto, sans-serif; fill:rgba(255,255,255,0.95)}
-      .chip{font:600 14px/1 'Segoe UI', Roboto, sans-serif; fill:#0f172a}
-      .small{font:400 12px 'Segoe UI', Roboto, sans-serif; fill:rgba(255,255,255,0.85)}
-    </style>
   </defs>
 
-  <rect width="1200" height="360" rx="18" class="bg"/>
+  <!-- background -->
+  <rect width="1200" height="360" rx="18" fill="url(#g1)"/>
 
-  <g transform="translate(64,72)">
-    <text class="name">Karim Aboushosha</text>
-    <text y="56" class="title">Frontend & WordPress Developer</text>
+  <!-- name -->
+  <text x="64" y="120" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="700" font-size="48" fill="#ffffff">Karim Aboushosha</text>
 
-    <g transform="translate(0,120)">
-      <rect x="0" y="0" rx="12" width="520" height="48" fill="#ffffff" opacity="0.12"/>
-      <text x="20" y="32" class="chip">HTML • CSS • JavaScript • WordPress • PHP • Elementor</text>
-    </g>
+  <!-- title (use 'and' instead of & to avoid XML issues) -->
+  <text x="64" y="164" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="400" font-size="20" fill="rgba(255,255,255,0.95)">Frontend and WordPress Developer</text>
 
-    <text x="0" y="190" class="small">Fast, accessible front-ends & polished WordPress builds</text>
-  </g>
+  <!-- chips background -->
+  <rect x="64" y="190" rx="12" width="520" height="48" fill="#ffffff" opacity="0.12"/>
+  <text x="84" y="224" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="600" font-size="14" fill="#0f172a">HTML • CSS • JavaScript • WordPress • PHP • Elementor</text>
 
-  <g transform="translate(760,56)">
-    <rect x="0" y="0" rx="12" width="360" height="248" fill="rgba(255,255,255,0.04)"/>
-    <g transform="translate(24,20)">
-      <text class="small" x="0" y="0" >Main tools</text>
-      <g transform="translate(0,30)">
-        <rect x="0" y="0" width="96" height="48" rx="8" fill="white" opacity="0.08"/>
-        <text x="12" y="32" class="chip">React</text>
-        <rect x="116" y="0" width="96" height="48" rx="8" fill="white" opacity="0.08"/>
-        <text x="128" y="32" class="chip">Next.js</text>
-        <rect x="232" y="0" width="96" height="48" rx="8" fill="white" opacity="0.08"/>
-        <text x="244" y="32" class="chip">Bootstrap</text>
-      </g>
-      <g transform="translate(0,92)">
-        <rect x="0" y="0" width="96" height="48" rx="8" fill="white" opacity="0.06"/>
-        <text x="12" y="32" class="chip">Tailwind</text>
-        <rect x="116" y="0" width="96" height="48" rx="8" fill="white" opacity="0.06"/>
-        <text x="128" y="32" class="chip">Elementor</text>
-        <rect x="232" y="0" width="96" height="48" rx="8" fill="white" opacity="0.06"/>
-        <text x="244" y="32" class="chip">WordPress</text>
-      </g>
-    </g>
+  <!-- right block -->
+  <rect x="760" y="56" rx="12" width="360" height="248" fill="rgba(255,255,255,0.04)"/>
+  <text x="784" y="82" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.85)">Main tools</text>
+
+  <!-- large tech chips -->
+  <g font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="600" font-size="14" fill="#0f172a">
+    <rect x="784" y="100" width="96" height="48" rx="8" fill="white" opacity="0.08"/>
+    <text x="796" y="132">React</text>
+
+    <rect x="900" y="100" width="96" height="48" rx="8" fill="white" opacity="0.08"/>
+    <text x="912" y="132">Next.js</text>
+
+    <rect x="1016" y="100" width="96" height="48" rx="8" fill="white" opacity="0.08"/>
+    <text x="1028" y="132">Bootstrap</text>
+
+    <rect x="784" y="156" width="96" height="48" rx="8" fill="white" opacity="0.06"/>
+    <text x="796" y="188">Tailwind</text>
+
+    <rect x="900" y="156" width="96" height="48" rx="8" fill="white" opacity="0.06"/>
+    <text x="912" y="188">Elementor</text>
+
+    <rect x="1016" y="156" width="96" height="48" rx="8" fill="white" opacity="0.06"/>
+    <text x="1028" y="188">WordPress</text>
   </g>
 </svg>
