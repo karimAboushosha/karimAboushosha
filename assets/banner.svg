@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0ea5a4"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 40px/1.1 'Segoe UI', Roboto, sans-serif; fill: white; }
+      .sub { font: 400 18px/1.2 'Segoe UI', Roboto, sans-serif; fill: rgba(255,255,255,0.9); }
+    </style>
+  </defs>
+
+  <rect width="1200" height="240" rx="16" fill="url(#g)"/>
+  <g transform="translate(48,46)">
+    <text class="title">Karim Aboushosha</text>
+    <text class="sub" y="56">WordPress Developer · Front-end · UI/UX</text>
+
+    <!-- small tech chips -->
+    <g transform="translate(0,100)">
+      <rect x="0" y="0" rx="10" height="36" width="160" fill="rgba(255,255,255,0.12)"/>
+      <text x="14" y="24" class="sub">HTML • CSS • JS</text>
+
+      <rect x="180" y="0" rx="10" height="36" width="190" fill="rgba(255,255,255,0.12)"/>
+      <text x="194" y="24" class="sub">WordPress • Elementor • PHP</text>
+    </g>
+  </g>
+</svg>
