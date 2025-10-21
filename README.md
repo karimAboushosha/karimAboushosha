@@ -7,7 +7,7 @@ I build fast, accessible front-ends and polished WordPress sites with attention 
 ---
 
 ## 📬 Contact & CV
-<a href="assets/Resume- Karim Aboushosha - Wordpress Developer.pdf" target="_blank" rel="noopener">
+<a href="assets/Resume-Karim-Aboushosha-Wordpress-Developer.pdf" target="_blank" rel="noopener">
   <img alt="Download CV" src="https://img.shields.io/badge/Download%20CV-PDF-0a66c2?style=flat-square&logo=adobeacrobat"/>
 </a>
 <a href="https://www.linkedin.com/in/karim-aboushosha-822140145/" target="_blank" rel="noopener">
@@ -37,8 +37,20 @@ Below are **large** badges so your main tools stand out.
   <img alt="Elementor" src="https://img.shields.io/badge/Elementor-%23A30C6E.svg?style=for-the-badge&logo=elementor&logoColor=white" height="40"/>
   <img alt="Tailwind" src="https://img.shields.io/badge/Tailwind-%2338B2AC.svg?style=for-the-badge&logo=tailwindcss&logoColor=white" height="40"/>
   <img alt="SQL" src="https://img.shields.io/badge/SQL-%23007ACC.svg?style=for-the-badge&logo=mysql&logoColor=white" height="40"/>
-  <img alt="Power BI" src="https://img.shields.io/badge/Power%20BI-%23F2C811.svg?style=for-the-badge&logo=microsoftpowerbi&logoColor=black" height="40"/>
   <img alt="Tableau" src="https://img.shields.io/badge/Tableau-%233E8CC9.svg?style=for-the-badge&logo=tableau&logoColor=white" height="40"/>
 </div>
 
+---
 
+## 🗣️ Languages
+- **Arabic:** Native / Bilingual  
+- **English:** Professional (C1)  
+- **Italian:** Working proficiency (A2)
+
+---
+
+## 📌 Availability / Open to work
+Open to freelance WordPress & front-end projects — available for short-term and long-term contracts.  
+If you'd like to discuss a project or collaboration, reach me on LinkedIn or by email.
+
+---
