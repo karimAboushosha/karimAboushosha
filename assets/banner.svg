@@ -1,27 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240">
-  <defs>
-    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#0ea5a4"/>
-      <stop offset="1" stop-color="#6366f1"/>
-    </linearGradient>
-    <style>
-      .title { font: 700 40px/1.1 'Segoe UI', Roboto, sans-serif; fill: white; }
-      .sub { font: 400 18px/1.2 'Segoe UI', Roboto, sans-serif; fill: rgba(255,255,255,0.9); }
-    </style>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+<defs>
+<linearGradient id="g1" x1="0" x2="1">
+<stop offset="0" stop-color="#0ea5a4"/>
+<stop offset="1" stop-color="#4f46e5"/>
+</linearGradient>
+<style>
+.bg{fill:url(#g1)}
+.name{font:700 48px/1.1 'Segoe UI', Roboto, sans-serif; fill:#fff}
+.title{font:400 20px/1.2 'Segoe UI', Roboto, sans-serif; fill:rgba(255,255,255,0.95)}
+.chip{font:600 14px/1 'Segoe UI', Roboto, sans-serif; fill:#0f172a}
+</style>
+</defs>
+<rect width="1200" height="360" rx="18" class="bg"/>
 
-  <rect width="1200" height="240" rx="16" fill="url(#g)"/>
-  <g transform="translate(48,46)">
-    <text class="title">Karim Aboushosha</text>
-    <text class="sub" y="56">WordPress Developer · Front-end · UI/UX</text>
 
-    <!-- small tech chips -->
-    <g transform="translate(0,100)">
-      <rect x="0" y="0" rx="10" height="36" width="160" fill="rgba(255,255,255,0.12)"/>
-      <text x="14" y="24" class="sub">HTML • CSS • JS</text>
+<g transform="translate(60,84)">
+<text class="name">Karim Aboushosha</text>
+<text y="56" class="title">Frontend & WordPress Developer</text>
 
-      <rect x="180" y="0" rx="10" height="36" width="190" fill="rgba(255,255,255,0.12)"/>
-      <text x="194" y="24" class="sub">WordPress • Elementor • PHP</text>
-    </g>
-  </g>
+
+<g transform="translate(0,120)">
+<rect x="0" y="0" rx="12" width="240" height="44" fill="#ffffff" opacity="0.12"/>
+<text x="18" y="30" class="chip">HTML • CSS • JavaScript</text>
+
+
+<rect x="260" y="0" rx="12" width="280" height="44" fill="#ffffff" opacity="0.12"/>
+<text x="278" y="30" class="chip">WordPress • PHP • Elementor</text>
+</g>
+</g>
+
+
+<!-- subtle geometric decoration -->
+<g transform="translate(920,40)">
+<circle cx="0" cy="0" r="64" fill="rgba(255,255,255,0.08)"/>
+<rect x="-28" y="80" width="140" height="140" rx="20" fill="rgba(255,255,255,0.04)"/>
+</g>
 </svg>
